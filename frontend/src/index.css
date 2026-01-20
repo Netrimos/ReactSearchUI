@@ -1,0 +1,14 @@
+/* Full-viewport app shell */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: block; /* IMPORTANT: override Vite template flex centering */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Optional nice default */
+* { box-sizing: border-box; }
